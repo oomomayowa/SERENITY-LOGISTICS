@@ -1,4 +1,3 @@
-import React from "react";
 // import style from "../Component/About";
 import image1 from "../assets/image12.jpg";
 import image2 from "../assets/image13.jpg";
@@ -11,13 +10,8 @@ import image7 from "../assets/image18.jpeg";
 import image9 from "../assets/image20.jpg";
 import image10 from "../assets/image22.avif";
 import image11 from "../assets/image23.jpeg";
- import image12 from "../assets/image25.jpeg";
+import image12 from "../assets/image25.jpeg";
 import image13 from "../assets/image 24.jpeg";
-
-
-
-
-
 
 const About = () => {
   return (
@@ -62,13 +56,13 @@ const About = () => {
         </div>
       </div>
 
-      <div class="flex flex-col rounded-lg bg-green shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-green-800  md:flex-row py-5 px-5 my-5">
+      <div className="flex flex-col rounded-lg bg-green shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-green-800  md:flex-row py-5 px-5 my-5">
         <img src={image7} alt="" />
-        <div class="p-6 bg-green-800">
-          <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 text-white text-center my-5">
+        <div className="p-6 bg-green-800">
+          <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 text-white text-center my-5">
             Our Services
           </h5>
-          <p class="mb-4 text-base text-white px-5">
+          <p className="mb-4 text-base text-white px-5">
             We facilitate movement of packages and cargo from point of origin to
             the destination desired by the user. We do this by leveraging on
             active logistics agents operating different mobility assets like
@@ -78,28 +72,24 @@ const About = () => {
           </p>
         </div>
       </div>
-      <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
-        <div class="container mx-auto">
-          <div class="-mx-4 flex flex-wrap">
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img
-                  src={image2}
-                    alt="image"
-                    class="w-full"
-                  />
+      <section className="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+        <div className="container mx-auto">
+          <div className="-mx-4 flex flex-wrap">
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mx-auto mb-10 max-w-[370px]">
+                <div className="mb-8 overflow-hidden rounded">
+                  <img src={image2} alt="image" className="w-full" />
                 </div>
                 <div>
                   <h3>
                     <a
                       href="javascript:void(0)"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
+                      className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                     >
                       Exclusive Express delivery
                     </a>
                   </h3>
-                  <p class="text-body-color text-base">
+                  <p className="text-body-color text-base">
                     Using our app, users can order for vehicles or motorcycles
                     for exclusive pick-up and delivery of courier packages with
                     no stop overs from pick point to destination.
@@ -107,25 +97,21 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img
-                    src={image3}
-                    alt="image"
-                    class="w-full"
-                  />
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mx-auto mb-10 max-w-[370px]">
+                <div className="mb-8 overflow-hidden rounded">
+                  <img src={image3} alt="image" className="w-full" />
                 </div>
                 <div>
                   <h3>
                     <a
                       href="javascript:void(0)"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
+                      className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                     >
                       Scheduled Delivery
                     </a>
                   </h3>
-                  <p class="text-body-color text-base">
+                  <p className="text-body-color text-base">
                     This is for same day pick up and deliveries (where
                     scheduling must be done between 6am to 9:59am same day) and
                     next-day only pick-up and delivery. Users can choose their
@@ -135,25 +121,21 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img
-                  src={image4}
-                    alt="image"
-                    class="w-full"
-                  />
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mx-auto mb-10 max-w-[370px]">
+                <div className="mb-8 overflow-hidden rounded">
+                  <img src={image4} alt="image" className="w-full" />
                 </div>
                 <div>
                   <h3>
                     <a
                       href="javascript:void(0)"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
+                      className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                     >
                       Inter-state Delivery
                     </a>
                   </h3>
-                  <p class="text-body-color text-base">
+                  <p className="text-body-color text-base">
                     This is a scheduled service where users can book for pickup
                     of goods for onward door-step delivery to intended recipient
                     in another city.
@@ -161,25 +143,21 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div class="mx-auto mb-10 max-w-[370px]">
-                <div class="mb-8 overflow-hidden rounded">
-                  <img
-                    src={image5}
-                    alt="image"
-                    class="w-full"
-                  />
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mx-auto mb-10 max-w-[370px]">
+                <div className="mb-8 overflow-hidden rounded">
+                  <img src={image5} alt="image" className="w-full" />
                 </div>
                 <div>
                   <h3>
                     <a
                       href="javascript:void(0)"
-                      class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
+                      className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                     >
                       Inter-Country delivery
                     </a>
                   </h3>
-                  <p class="text-body-color text-base">
+                  <p className="text-body-color text-base">
                     This affordable delivery option is a special service for
                     movement of goods from one country to the intended recipient
                     in another country.
@@ -187,36 +165,99 @@ const About = () => {
                 </div>
               </div>
             </div>
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mx-auto mb-10 max-w-[370px]">
+                <div className="mb-8 overflow-hidden rounded">
+                  <img src={image4} alt="image" className="w-full" />
+                </div>
+                <div>
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
+                    >
+                      Inter-state Delivery
+                    </a>
+                  </h3>
+                  <p className="text-body-color text-base">
+                    This is a scheduled service where users can book for pickup
+                    of goods for onward door-step delivery to intended recipient
+                    in another city.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mx-auto mb-10 max-w-[370px]">
+                <div className="mb-8 overflow-hidden rounded">
+                  <img src={image5} alt="image" className="w-full" />
+                </div>
+                <div>
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
+                    >
+                      Inter-Country delivery
+                    </a>
+                  </h3>
+                  <p className="text-body-color text-base">
+                    This affordable delivery option is a special service for
+                    movement of goods from one country to the intended recipient
+                    in another country.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </section>
 
       <div className=" px-5 bg-green-900 text-white py-5">
-      <a href="#" class="block group  p-4 border-b">
-        <p class="font-bold text-lg mb-1 text-white text-center ">
-          Benefits our Logistics Agent Enjoy
-        </p>
-      </a>
-      <ul class="list-disc text-sm mx-5 my-5">
-        <li >Serenity provides improved market access to a large pool of prospective customers.</li>
-        <li >For fleet operators, Serenity increases sales prospects and overall operational efficiency with access to customized tools.</li>
-        <li >Prospective Logistics Agents are required to select mobility asset type (motorbike, vehicle or truck), year of production, plate number and uploads of documents (driver license, vehicle registration document and complete )</li>
-        <li >Our Quality Assessment Agent will verify/screen your application after which you become verified on the Serenity express platform; which means you can start receiving requests.</li>
-        <li >For complete information about required documents, click here for checklist.</li>
-        <li>For more information kindly send an email to: support@Serenity.com.ng</li>
-      </ul>
+        <a href="#" className="block group  p-4 border-b">
+          <p className="font-bold text-lg mb-1 text-white text-center ">
+            Benefits our Logistics Agent Enjoy
+          </p>
+        </a>
+        <ul className="list-disc text-sm mx-5 my-5">
+          <li>
+            Serenity provides improved market access to a large pool of
+            prospective customers.
+          </li>
+          <li>
+            For fleet operators, Serenity increases sales prospects and overall
+            operational efficiency with access to customized tools.
+          </li>
+          <li>
+            Prospective Logistics Agents are required to select mobility asset
+            type (motorbike, vehicle or truck), year of production, plate number
+            and uploads of documents (driver license, vehicle registration
+            document and complete )
+          </li>
+          <li>
+            Our Quality Assessment Agent will verify/screen your application
+            after which you become verified on the Serenity express platform;
+            which means you can start receiving requests.
+          </li>
+          <li>
+            For complete information about required documents, click here for
+            checklist.
+          </li>
+          <li>
+            For more information kindly send an email to:
+            support@Serenity.com.ng
+          </li>
+        </ul>
       </div>
 
-      
-
-      <div class="flex flex-col rounded-lg bg-green shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-green-800  md:flex-row py-5 px-5 my-5">
-        <img
-          src={image6} alt="" width={500} className="mx-2"/>
-        <div class="flex flex-col justify-start p-6">
-          <h5 class="mb-2 text-xl font-medium text-white">
+      <div className="flex flex-col rounded-lg bg-green shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-green-800  md:flex-row py-5 px-5 my-5">
+        <img src={image6} alt="" width={500} className="mx-2" />
+        <div className="flex flex-col justify-start p-6">
+          <h5 className="mb-2 text-xl font-medium text-white">
             Become A Logistics Agent
           </h5>
-          <p class="mb-4 text-base text-neutral-600 text-white">
+          <p className="mb-4 text-base text-neutral-600 text-white">
             You can truly become your own boss as a serenity express logistics
             agent whether as an owner of a motorcycle, vehicle or a fleet of
             mobility assets. serenity is a clilaborative toli that depends on
@@ -227,28 +268,46 @@ const About = () => {
         </div>
       </div>
 
-      
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-5">
-    <div>
-        <img style={{width:'95%'}} class="h-auto max-w-full rounded-lg" src={image11} alt=""/>
-    </div>
-    <div>
-        <img style={{width:'150%'}} class="h-auto max-w-full rounded-lg" src={image12} alt=""/>
-    </div>
-    <div>
-        <img style={{width:'150%'}} class="h-auto max-w-full rounded-lg" src={image7} alt=""/>
-    </div>
-    <div>
-        <img style={{width:'95%'}}  class="h-auto max-w-full rounded-lg " src={image13} alt=""/>
-    </div>
-    <div>
-        <img   class="h-auto max-w-full rounded-lg" src={image9} alt=""/>
-    </div>
-    <div>
-        <img class="h-auto max-w-full rounded-lg " src={image10} alt=""/>
-    </div>
-</div>
-
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-5">
+        <div>
+          <img
+            style={{ width: "95%" }}
+            className="h-auto max-w-full rounded-lg"
+            src={image11}
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            style={{ width: "150%" }}
+            className="h-auto max-w-full rounded-lg"
+            src={image12}
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            style={{ width: "150%" }}
+            className="h-auto max-w-full rounded-lg"
+            src={image7}
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            style={{ width: "95%" }}
+            className="h-auto max-w-full rounded-lg "
+            src={image13}
+            alt=""
+          />
+        </div>
+        <div>
+          <img className="h-auto max-w-full rounded-lg" src={image9} alt="" />
+        </div>
+        <div>
+          <img className="h-auto max-w-full rounded-lg " src={image10} alt="" />
+        </div>
+      </div>
     </>
   );
 };
