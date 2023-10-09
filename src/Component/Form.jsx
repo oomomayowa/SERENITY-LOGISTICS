@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-const NavBar = () => {
+const Form = () => {
   const[Number,setNumber]=useState(0)
 
   const increment=()=>{
@@ -277,4 +277,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Form
