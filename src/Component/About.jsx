@@ -12,11 +12,12 @@ import image10 from "../assets/image22.avif";
 import image11 from "../assets/image23.jpeg";
 import image12 from "../assets/image25.jpeg";
 import image13 from "../assets/image 24.jpeg";
+// import { useState } from "react";
 
 const About = () => {
   return (
     <>
-      <div className="flex flex-col sm:flex-row gap-10 mx-2 p-5 min-h-70">
+      <div className="flex flex-col sm:flex-row gap-10 mx-2 p-5 min-h-70 mt-32">
         <div className="w-full sm:w-1/2 my-5 ">
           <img src={image1} style={{ width: "550px", marginTop: "15%" }} />
         </div>
