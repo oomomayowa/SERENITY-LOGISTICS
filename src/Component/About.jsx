@@ -166,6 +166,51 @@ const About = () => {
                 </div>
               </div>
             </div>
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mx-auto mb-10 max-w-[370px]">
+                <div className="mb-8 overflow-hidden rounded">
+                  <img src={image4} alt="image" className="w-full" />
+                </div>
+                <div>
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
+                    >
+                      Inter-state Delivery
+                    </a>
+                  </h3>
+                  <p className="text-body-color text-base">
+                    This is a scheduled service where users can book for pickup
+                    of goods for onward door-step delivery to intended recipient
+                    in another city.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div className="mx-auto mb-10 max-w-[370px]">
+                <div className="mb-8 overflow-hidden rounded">
+                  <img src={image5} alt="image" className="w-full" />
+                </div>
+                <div>
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
+                    >
+                      Inter-Country delivery
+                    </a>
+                  </h3>
+                  <p className="text-body-color text-base">
+                    This affordable delivery option is a special service for
+                    movement of goods from one country to the intended recipient
+                    in another country.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </section>
