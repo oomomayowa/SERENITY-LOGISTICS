@@ -60,7 +60,7 @@ const About = () => {
       <div className="flex flex-col rounded-lg bg-green shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-green-800  md:flex-row py-5 px-5 my-5">
         <img src={image7} alt="" />
         <div className="p-6 bg-green-800">
-          <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 text-white text-center my-5">
+          <h5 className="mb-2 text-xl font-medium leading-tight  text-white text-center my-5">
             Our Services
           </h5>
           <p className="mb-4 text-base text-white px-5">
@@ -177,13 +177,12 @@ const About = () => {
                       href="javascript:void(0)"
                       className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                     >
-                      Inter-state Delivery
+                      Pending Delivery
                     </a>
                   </h3>
                   <p className="text-body-color text-base">
                     This is a scheduled service where users can book for pickup
-                    of goods for onward door-step delivery to intended recipient
-                    in another city.
+                    of goods and pend the delivery .
                   </p>
                 </div>
               </div>
@@ -191,7 +190,7 @@ const About = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mx-auto mb-10 max-w-[370px]">
                 <div className="mb-8 overflow-hidden rounded">
-                  <img src={image5} alt="image" className="w-full" />
+                  <img src={image2} alt="image" className="w-full" />
                 </div>
                 <div>
                   <h3>
@@ -199,13 +198,12 @@ const About = () => {
                       href="javascript:void(0)"
                       className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                     >
-                      Inter-Country delivery
+                      Merge delivery
                     </a>
                   </h3>
                   <p className="text-body-color text-base">
                     This affordable delivery option is a special service for
-                    movement of goods from one country to the intended recipient
-                    in another country.
+                    movement of goods when user decided to merge two or three deliveries.
                   </p>
                 </div>
               </div>
@@ -258,7 +256,7 @@ const About = () => {
           <h5 className="mb-2 text-xl font-medium text-white">
             Become A Logistics Agent
           </h5>
-          <p className="mb-4 text-base text-neutral-600 text-white">
+          <p className="mb-4 text-base  text-white">
             You can truly become your own boss as a serenity express logistics
             agent whether as an owner of a motorcycle, vehicle or a fleet of
             mobility assets. serenity is a clilaborative toli that depends on
