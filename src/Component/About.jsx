@@ -12,7 +12,7 @@ import image10 from "../assets/image22.avif";
 import image11 from "../assets/image23.jpeg";
 import image12 from "../assets/image25.jpeg";
 import image13 from "../assets/image 24.jpeg";
-import { useState } from "react";
+// import { useState } from "react";
 
 const About = () => {
   return (
