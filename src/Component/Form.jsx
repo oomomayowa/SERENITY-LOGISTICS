@@ -231,23 +231,23 @@ const Form = () => {
 </div>
 </section>
 
-<div class="container mx-auto mt-4">
-<h1 class="text-2xl font-semibold mb-4">LIST OF ORDER</h1>
+<div className="container mx-auto mt-4">
+<h1 className="text-2xl font-semibold mb-4">LIST OF ORDER</h1>
         <table class="min-w-full table-auto">
             <tbody> <thead>
-            <tr class="px-2  text-sm" >
-              <th class="px-4 py-2 text-xs">S/N</th>
-              <th class="px-4 py-2 text-xs">PICK-UP NAME</th>
-              <th class="px-4 py-2 text-xs">PICK-UP ADDRESS</th>
-              <th class="px-4 py-2 text-xs">WEIGHT</th>
-              <th class="px-4 py-2 text-xs">ITEM</th>
-              <th class="px-4 py-2 text-xs">DROP-OFF NAME</th>
-              <th class="px-4 py-2 text-xs">DROP-OFF ADDRESS</th>
-              <th class="px-4 py-2 text-xs">DROP-OFF NUMBER</th>
-              <th class="px-4 py-2 text-xs">LOCATION</th>
-              <th class="px-4 py-2 text-xs">CITY</th>
-              <th class="px-4 py-2 text-xs">COUNTRY</th>
-              <th class="px-4 py-2 text-xs">POSTAL CODE</th>
+            <tr className="px-2  text-sm" >
+              <th className="px-4 py-2 text-xs">S/N</th>
+              <th className="px-4 py-2 text-xs">PICK-UP NAME</th>
+              <th className="px-4 py-2 text-xs">PICK-UP ADDRESS</th>
+              <th className="px-4 py-2 text-xs">WEIGHT</th>
+              <th className="px-4 py-2 text-xs">ITEM</th>
+              <th className="px-4 py-2 text-xs">DROP-OFF NAME</th>
+              <th className="px-4 py-2 text-xs">DROP-OFF ADDRESS</th>
+              <th className="px-4 py-2 text-xs">DROP-OFF NUMBER</th>
+              <th className="px-4 py-2 text-xs">LOCATION</th>
+              <th className="px-4 py-2 text-xs">CITY</th>
+              <th className="px-4 py-2 text-xs">COUNTRY</th>
+              <th className="px-4 py-2 text-xs">POSTAL CODE</th>
 
 
             </tr>

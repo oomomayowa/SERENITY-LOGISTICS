@@ -7,7 +7,7 @@ import image4 from "../assets/image16.jpeg";
 import image5 from "../assets/image10.jpeg";
 import image6 from "../assets/image17.webp";
 import image7 from "../assets/image18.jpeg";
-import image8 from "../assets/image19.jpeg";
+// import image8 from "../assets/image19.jpeg";
 import image9 from "../assets/image20.jpg";
 import image10 from "../assets/image22.avif";
 import image11 from "../assets/image23.jpeg";
