@@ -21,7 +21,7 @@ const About = () => {
     // Simulate loading delay (you can replace this with your actual data loading logic)
     setTimeout(() => {
       setLoading(false);
-    }, 1000); // 2000 milliseconds (2 seconds) for demonstration purposes
+    }, 500); // 2000 milliseconds (2 seconds) for demonstration purposes
   }, []);
 
   return (
